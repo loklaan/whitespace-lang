@@ -1,0 +1,25 @@
+{
+  "name": "whitespace-lang",
+  "version": "1.0.0",
+  "description": "Runs programs written in Whitespace Language",
+  "homepage": "https://github.com/loklaan/whitespace-lang",
+  "repository": "git@github.com:loklaan/whitespace-lang.git",
+  "bin": {
+    "whitespace": "index.js"
+  },
+  "author": "Lochlan Bunn <bunn@lochlan.io>",
+  "license": "MIT",
+  "scripts": {
+    "test": "./index.js tests.ws"
+  },
+  "dependencies": {
+    "get-stdin": "^5.0.1",
+    "meow": "^4.0.0"
+  },
+  "tags": [
+    "cli",
+    "whitespace",
+    "whitespace-language",
+    "interpreter"
+  ]
+}
